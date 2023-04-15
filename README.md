@@ -22,7 +22,7 @@ npx hardhat deploy-zksync --script deploy.ts --network <NETWORK>
 ```
 4. Verify your contract:
 ```shell
-npx hardhat verify --network zkTestnet <DEPLOYED_ADDRESS> <CONSTRUCTOR ARGS>
+npx hardhat verify --network <NETWORK> <DEPLOYED_ADDRESS> <CONSTRUCTOR ARGS>
 ```
 or (for multiple migrations)
 ```shell
