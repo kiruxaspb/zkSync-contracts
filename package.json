@@ -1,0 +1,27 @@
+{
+  "name": "zksync-contracts",
+  "version": "1.0.0",
+  "description": "Sample Hardhat project for deploy & verify contract in ZK-Sync network",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiruxaspb/zkSync-contracts.git"
+  },
+  "author": "kiruxaspb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kiruxaspb/zkSync-contracts/issues"
+  },
+  "devDependencies": {
+    "@matterlabs/hardhat-zksync-deploy": "^0.6.3",
+    "@matterlabs/hardhat-zksync-solc": "^0.3.16",
+    "@matterlabs/hardhat-zksync-toolbox": "^0.1.1",
+    "@matterlabs/hardhat-zksync-verify": "^0.1.5",
+    "@nomiclabs/hardhat-etherscan": "^3.1.2",
+    "hardhat": "^2.13.1"
+  },
+  "dependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@openzeppelin/contracts": "^4.8.3",
+    "dotenv": "^16.0.3"
+  }
+}
