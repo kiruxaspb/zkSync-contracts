@@ -16,11 +16,12 @@ npx hardhat compile
 **[Attension] If you are creating a new project through `npx hardhat init`.**
 
 **Create a `deploy` folder and place scripts for migrations**
-3. Deploy your contract:
+
+4. Deploy your contract:
 ```shell
 npx hardhat deploy-zksync --script deploy.ts --network <NETWORK>
 ```
-4. Verify your contract:
+5. Verify your contract:
 ```shell
 npx hardhat verify --network <NETWORK> <DEPLOYED_ADDRESS> <CONSTRUCTOR ARGS>
 ```
